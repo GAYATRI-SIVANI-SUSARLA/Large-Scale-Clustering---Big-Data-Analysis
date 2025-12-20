@@ -150,4 +150,12 @@ Communication overhead remains low (~4.4%) even at high process counts.
 ---
 
 ## Repository Structure
-
+```text
+├── data/                 # Preprocessed and sampled datasets
+├── src/                  # MPI clustering implementations
+├── slurm/                # SLURM job submission scripts
+├── results/              # Runtime logs and metrics
+├── visualizations/       # Performance and clustering plots
+├── notebooks/            # Exploratory analysis
+└── README.md
+```
